@@ -4,25 +4,25 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aclcbukidnon.com.javafxactivity.controllers.DashboardController">
+<BorderPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="692.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aclcbukidnon.com.javafxactivity.controllers.DashboardController">
    <left>
-      <VBox prefHeight="400.0" prefWidth="187.0" style="-fx-background-color: #161616;" BorderPane.alignment="CENTER">
+      <VBox prefHeight="400.0" prefWidth="187.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onCounterClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: #0f62fe;" text="Counter" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onCounterClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: orange;" text="Counter" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#onTrafficLightClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: #0f62fe;" text="Traffic Light" textFill="WHITE">
+            <Button mnemonicParsing="false" onAction="#onTrafficLightClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: orange;" text="Traffic Light" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#onCalculatorClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: #0f62fe;" text="Calculator" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#onCalculatorClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: orange;" text="Calculator" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#onTodoClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: #0f62fe;" text="Todo" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#onTodoClick" prefHeight="60.0" prefWidth="1000000.0" style="-fx-background-color: orange;" text="Todo" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>

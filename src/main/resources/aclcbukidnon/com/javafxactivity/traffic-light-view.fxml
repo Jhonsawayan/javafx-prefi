@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 
-<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="638.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+<HBox alignment="CENTER" prefHeight="220.0" prefWidth="693.0" spacing="10.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aclcbukidnon.com.javafxactivity.controllers.TrafficLightController">
+
    <children>
-      <Circle fill="#575757" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#575757" layoutX="110.0" layoutY="110.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#575757" layoutX="310.0" layoutY="110.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="stopLight" fill="#575757" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="holdLight" fill="#575757" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="goLight" fill="#575757" radius="100.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" />
+      <Button onAction="#onStartClick" text="Start" />
    </children>
+
    <padding>
       <Insets left="10.0" right="10.0" />
    </padding>
